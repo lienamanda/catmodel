@@ -1,0 +1,19 @@
+Package: catmodel
+Type: Package
+Title: An Algorithm To Fit Prototype And Exemplar Categorization Models
+Version: 0.1.0
+Author: person("Amanda", "Lien", email = "lien.amanda@rogers.com",
+            role = c("aut", "cre"))
+Maintainer: lien.amanda@rogers.com
+Description: An algorithm to fit prototype and exemplar categorization
+    models. It uses the hill-climbing method of adjusting weight and
+    sensitivity parameters to optimally fit data of experimental categorization
+    tasks to the prototype and exemplar models. It can also produce graphs of
+    these fits and take user-defined parameters to predict performance of
+    a prototype or exemplar model strategy.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    reshape2
